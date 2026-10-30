@@ -4,7 +4,7 @@
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-Material%203-4285F4)
 ![Retrofit](https://img.shields.io/badge/Retrofit-REST-48B983)
 
-An Android app for finding parking lots in Algeria (organized by wilaya, daïra and commune). Users sign up, browse parkings with photos and descriptions, and see their reservations. Booking is handled by the backend API. It is built with Jetpack Compose (MVVM) and talks to a [Django REST backend](https://github.com/MehdiBedja/Reservation-app-backend).
+An Android app for finding parking lots in Algeria (organized by wilaya, daïra and commune). Users sign up, browse parkings with photos and descriptions, and see their reservations. Booking is handled by the backend API. It is built with Jetpack Compose (MVVM) and talks to a [Django REST backend](https://github.com/MehdiBedja/parking-reservation-api).
 
 ## Screenshots
 
@@ -45,7 +45,7 @@ app/src/main/java/com/example/reservation_app_frontend/
 
 ## Run
 
-1. Start the [backend](https://github.com/MehdiBedja/Reservation-app-backend) locally (or expose it with ngrok).
+1. Start the [backend](https://github.com/MehdiBedja/parking-reservation-api) locally (or expose it with ngrok).
 2. Set its address in `app/src/main/java/com/example/reservation_app_frontend/network/UrlFile.kt`. Use `http://10.0.2.2:8000/` for the Android emulator.
 3. Open the project in Android Studio and press **Run**, or:
 
