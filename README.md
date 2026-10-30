@@ -1,18 +1,6 @@
-# Parking Reservation · Android App
-
-![Kotlin](https://img.shields.io/badge/Kotlin-Android-7F52FF?logo=kotlin&logoColor=white)
-![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-Material%203-4285F4)
-![Retrofit](https://img.shields.io/badge/Retrofit-REST-48B983)
+# Parking reservation: Android app
 
 An Android app for finding parking lots in Algeria (organized by wilaya, daïra and commune). Users sign up, browse parkings with photos and descriptions, and see their reservations. Booking is handled by the backend API. It is built with Jetpack Compose (MVVM) and talks to a [Django REST backend](https://github.com/MehdiBedja/parking-reservation-api).
-
-## Screenshots
-
-| Login | Parkings | My reservations |
-| --- | --- | --- |
-| ![Login](docs/screenshots/login.png) | ![Parkings](docs/screenshots/parkings.png) | ![Reservations](docs/screenshots/reservations.png) |
-
-<!-- Screenshot placeholders: add images to docs/screenshots/ -->
 
 ## Features
 
@@ -47,7 +35,7 @@ app/src/main/java/com/example/reservation_app_frontend/
 
 1. Start the [backend](https://github.com/MehdiBedja/parking-reservation-api) locally (or expose it with ngrok).
 2. Set its address in `app/src/main/java/com/example/reservation_app_frontend/network/UrlFile.kt`. Use `http://10.0.2.2:8000/` for the Android emulator.
-3. Open the project in Android Studio and press **Run**, or:
+3. Open the project in Android Studio and press Run, or:
 
 ```bash
 ./gradlew installDebug
@@ -59,4 +47,4 @@ app/src/main/java/com/example/reservation_app_frontend/
 
 ## Author
 
-**Mahdi Bedja** · [Portfolio](https://mehdibedja.github.io) · [LinkedIn](https://www.linkedin.com/in/mahdi-bedja-0b94031b3/)
+Mahdi Bedja · [Portfolio](https://mehdibedja.github.io) · [LinkedIn](https://www.linkedin.com/in/mahdi-bedja-0b94031b3/)
